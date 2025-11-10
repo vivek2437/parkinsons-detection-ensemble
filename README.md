@@ -50,11 +50,8 @@ parkinsons_voice_mvp/
 │   └── ...
 │
 ├── frontend/
-│   ├── index.html              # Voice recording interface
-│   ├── app.js                  # Handles audio + API calls
-│   ├── styles.css              # UI styling
-│   └── ...
-│
+│   ├── app.py
+|
 ├── models/
 │   └── (Trained ML models)
 │
@@ -68,7 +65,7 @@ parkinsons_voice_mvp/
 
 | Layer | Technology |
 |-------|-------------|
-| **Frontend** | HTML, CSS, JavaScript |
+| **Frontend** | Streamlit |
 | **Backend** | FastAPI, Uvicorn |
 | **ML/AI** | XGBoost, NumPy, Librosa, Scikit-learn |
 | **Environment** | Python 3.11, Virtualenv |
@@ -103,8 +100,9 @@ uvicorn main:app --reload
 
 Backend will start on → http://127.0.0.1:8000
 
-### 5️⃣ Open the frontend
-Just open `frontend/index.html` in your browser.
+### 5️⃣ 4️⃣ Run Streamlit app
+
+streamlit run frontend/app.py
 
 ---
 
@@ -147,9 +145,6 @@ This project is licensed under the **MIT License** — you’re free to use, mod
 ## 👨‍🔬 Author
 
 **Vivek Nayi**  
-📧 your.email@example.com  
-🌐 https://github.com/YOUR_USERNAME
-
 ---
 
 ⭐ *If you found this helpful, consider starring the repo!*
