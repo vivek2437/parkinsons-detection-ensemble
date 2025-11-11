@@ -100,10 +100,10 @@ uvicorn main:app --reload
 
 Backend will start on → http://127.0.0.1:8000
 
-### 5️⃣ 4️⃣ Run Streamlit app
-
+### 5️⃣ Run Streamlit app
+```bash
 streamlit run frontend/app.py
-
+```
 ---
 
 ## 🧑‍💻 Contributing
